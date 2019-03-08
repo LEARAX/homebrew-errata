@@ -22,10 +22,7 @@ class Cataclysm < Formula
     depends_on "libvorbis"
   end
 
-  needs :cxx11
-
   def install
-    ENV.cxx11
 
     args = %W[
       NATIVE=osx
